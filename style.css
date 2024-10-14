@@ -1,0 +1,246 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(207, 253, 235);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+header {
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  flex-wrap: wrap;
+}
+header .logo{
+  width: 25%;
+}
+
+#main_menu{
+  width: 75%;
+  justify-content: right;
+}
+#main_menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+#main_menu ul li{
+  display: inline-block;
+  position: relative;
+}
+#main_menu li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 22px 15px;
+  font-size: 1.5rem;
+}
+#main_menu a:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 10px;
+}
+/* starts drop down menu */
+#main_menu ul ul{
+  position: absolute;
+  left: 0;
+  top: 62px;
+  background-color: cadetblue;
+  display: none;
+}
+#main_menu ul ul li{
+  display: block;
+}
+#main_menu ul li:hover ul{
+  display: block;
+}
+/* ends drop down menu */
+
+/* starts banner */
+.banner{
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  color: white;
+  background: url('banner/website-banner-designs-modern-online-learning-platforms.jpg') no-repeat fixed;
+  background-size: cover;
+  background-position: center center;
+}
+h1{
+  font-size: 3.5rem;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.banner h2{
+  font-size: 2rem;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+}
+/* start services */
+.services{
+  background-color: #8E928B;
+  text-align: center;
+  color: white;
+}
+.service_intro{
+  margin-bottom: 20px;
+}
+.service_intro h2{
+  padding-top: 60px;
+  color: black;
+  font-weight: bold;
+}
+.service_intro p{
+  padding: 25px;
+  text-align: justify;
+  font-size: 1.3rem;
+}
+.services_cards{
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgb(142, 146, 139);
+  padding: 0px 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.services h2{
+  font-size: 2rem;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+.services_card{
+  width: 350px;
+  margin: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 4px black;
+  padding-top: 20px;
+  background-color:#965706;
+  color: white;
+  display: inline-block;
+}
+.services_card img{
+  width: 90%;
+  padding: 15px;
+}
+.services_card:hover{
+  box-shadow: 8x rgb(255, 4, 4);
+}
+.s_card_body p{
+  text-align: justify;
+  padding: 10px;
+}
+.s_card_body h3{
+  background-color: black;
+  padding: 10px;
+}
+.services_card:hover{
+  box-shadow: 10px 12px 12px rgb(255, 255, 255);
+}
+
+.btn{
+  text-align: center;
+  margin: 80px;
+}
+button{
+  border-radius: 20px;
+}
+section button{
+  background-color: rgb(16, 134, 0);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 2rem;
+  text-align: center;
+}
+section button:hover{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+}
+
+.testimonials{
+  background-color: rgb(207, 157, 253);
+  margin-top: 15px;
+}
+.testimonials h2{
+  text-align: center;
+  padding-top: 35px;
+}
+.testimonial_img{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  padding-bottom: 55px;
+  
+}
+.testimonial_img img{
+  padding: 15px;
+}
+.testimonial_img img:hover{
+  box-shadow: 10px 12px 11px black;
+}
+
+.contact_form{
+  background-color: rgb(255, 120, 120);
+  display: flex;
+  box-sizing: border-box;
+  justify-self: center;
+  flex-wrap: wrap;
+}
+
+.form_left h2{
+  padding-top: 25px;
+  text-align: center;
+}
+.form_left{
+  width: 50%;
+  background-color: rgb(134, 152, 255);
+}
+.form_left iframe{
+  margin: 25px;
+}
+.form_right form {
+  margin-left: 40%;
+}
+.form_right button{
+  margin-left: 8%;
+}
+.form_right h2{
+  text-align: center;
+  padding: 25px;
+}
+.form_right{
+  width: 50%;
+}
+.social_icons{
+  margin-left: 50px;
+}
+.social_icons ul li{
+  display: inline-block;
+}
+.social_icons ul a{
+  color: rgb(112, 255, 124);
+  font-size: 2rem;
+  padding: 0px 10px;
+}
+.social_icons ul a:hover{
+  color: white;
+}
+footer{
+  padding: 20px;
+  display: flex;
+  margin-bottom: 0px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+footer p{
+  margin-left: 350px;
+  font-size: 1.5rem;
+}
+
+
